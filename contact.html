@@ -1,35 +1,54 @@
 <!DOCTYPE html>
-    <html lang="en-us">
+<html lang="en-us">   
         <head>
+            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+            <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
             <meta charset="UTF-8">
-                <!-- Web Page Title -->
-                <title>Stewart Capps - Contact</title>
+            <!-- Web Page Title -->
+            <title>Stewart Capps - Contact</title>
         </head>
-
+     
         <body>
-            <div>
-                <section>
-                    <!-- Headline -->
-                    <header>
-                        <h1>Stewart Capps</h1>
-                    </header>
-                </section>
-
-                <section>
-                    <!-- Headline -->
-                    <h2>Contact</h2>
-
-                    <!-- Contact Form -->
-                    <form>
-                        Name:<br>
-                        <input type="text" name="name" placeholder="John Smith" required><br>
-                        Email:<br>
-                        <input type="email" name="email" placeholder="example@gmail.com" required><br>
-                        Message:<br>
-                        <textarea name="message" required></textarea><br>
-                        <input type="submit">
-                    </form>
-                </section>
+            <div class="headline">
+                <!-- Headline -->
+                <header>
+                    <h1 class="name">Stewart Capps</h1> 
+                    <!-- Link Table -->
+                    <table class="table1">
+                        <tr>
+                            <th class="column"><a href="Index.html">About</a></th>
+                            <th class="column"><a href="Contact.html">Contact</a></th>
+                            <th><a href="Portfolio.html">Portfolio</a></th>
+                        </tr>
+                    </table>
+                </header>  
             </div>
-        </body>
-    </html>
+            
+            <div class="main-body">
+                <section class="block2">
+                    <section class="hd">
+                        <!-- Headline -->
+                        <h2>Contact</h2>
+                    </section>
+                    
+                    <!-- Contact Form -->
+                    <section class="form">
+                        <form>
+                            Name<br>
+                            <input type="text" name="name" placeholder="John Smith" required><br>
+                            Email<br>
+                            <input type="email" name="email" placeholder="example@gmail.com" required><br>
+                            Message<br>
+                            <textarea name="message" required></textarea><br>
+                            <input id="button" type="submit">
+                        </form>
+                    </section>
+                </section>
+
+                    <!-- Copyright Footer -->
+                <footer>
+                    <p class="copyright">Copyright &copy;</p>
+                </footer>
+            </div>
+        </body>   
+</html>
